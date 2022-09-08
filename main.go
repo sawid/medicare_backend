@@ -13,6 +13,11 @@ func main() {
 			"message": "Hello World! กฟพฟ",
 		})
 	})
+	r.GET("/test_path", func(c *gin.Context) {
+		c.JSON(http.StatusOK, gin.H{
+			"message": "Hello World! path",
+		})
+	})
 	r.Run()
 
 }
