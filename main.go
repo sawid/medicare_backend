@@ -28,6 +28,11 @@ func main() {
 			"message": "Hello World! path",
 		})
 	})
+	r.POST("/receive_post", func(c *gin.Context) {
+	
+		
+
+	})
 	r.Run()
 
 }
