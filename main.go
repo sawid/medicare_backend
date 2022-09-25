@@ -31,7 +31,7 @@ func main() {
 	r.POST("/receive_post", func(c *gin.Context) {
 	
 		c.JSON(http.StatusOK, gin.H{
-			"message": "Hello World! data post into path",
+			"message": "Hello World! data post into forigen data path",
 		})
 
 	})
